@@ -1,0 +1,4 @@
+dataset,medmnist_key,task,source,split_used,primary_metric,public
+ChestMNIST,chestmnist,multi-label chest X-ray finding classification,"MedMNIST v2 via Hugging Face mirror albertvillanova/medmnist-v2, data/chestmnist.npz",official test split; capped at 3000 test examples in the run,macro AUROC,yes
+OCTMNIST,octmnist,multi-class retinal OCT classification,"MedMNIST v2 via Hugging Face mirror albertvillanova/medmnist-v2, data/octmnist.npz",official test split; 1000 test examples in the run,macro AUROC,yes
+OrganAMNIST,organamnist,multi-class abdominal organ classification,"MedMNIST v2 via Hugging Face mirror albertvillanova/medmnist-v2, data/organamnist.npz",official test split; capped at 3000 test examples in the run,macro AUROC,yes

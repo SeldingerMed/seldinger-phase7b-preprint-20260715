@@ -1,0 +1,5 @@
+gap,status,paper_handling
+GPU biomedical foundation encoder matrix still incomplete pending RunPod availability/collection,not completed in selected Phase 7 run,reported as limitation / follow-up experiment
+BiomedCLIP/OpenCLIP/DINOv2 224px embeddings need >=3 seeds and paired bootstrap CIs,not completed in selected Phase 7 run,reported as limitation / follow-up experiment
+external validation now started with ChestMNIST/OCTMNIST/OrganAMNIST but needs at least one non-MedMNIST public dataset with explicit license table,not completed in selected Phase 7 run,reported as limitation / follow-up experiment
+manuscript-grade qualitative failure taxonomy and zero-shot prompt ensemble still missing,not completed in selected Phase 7 run,reported as limitation / follow-up experiment

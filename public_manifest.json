@@ -1,0 +1,50 @@
+{
+  "title": "Seldinger Phase 7b healthcare-CV evaluation-harness public release",
+  "attribution": "Colin Son, Seldinger, Inc., ORCID 0000-0002-1782-0537",
+  "created_at": "2026-07-15T11:36:38.577503+00:00",
+  "source_run": "phase7-experiment-20260715T080239Z-f7ae7d96",
+  "work_order_id": "wo-41abfb21e290b725",
+  "data_policy": "Public/non-PHI derived tables and figure scripts only; raw MedMNIST data are not copied.",
+  "public_datasets": [
+    {
+      "name": "MedMNIST v2 ChestMNIST",
+      "identifier": "albertvillanova/medmnist-v2 data/chestmnist.npz",
+      "canonical_reference": "Yang et al., Scientific Data 2023, doi:10.1038/s41597-022-01721-8",
+      "download_command": "python -c \"from huggingface_hub import hf_hub_download; hf_hub_download(repo_id='albertvillanova/medmnist-v2', repo_type='dataset', filename='data/chestmnist.npz')\"",
+      "split": "official MedMNIST v2 train/val/test split; selected run used test rows reported in results CSV"
+    },
+    {
+      "name": "MedMNIST v2 OCTMNIST",
+      "identifier": "albertvillanova/medmnist-v2 data/octmnist.npz",
+      "canonical_reference": "Yang et al., Scientific Data 2023, doi:10.1038/s41597-022-01721-8",
+      "download_command": "python -c \"from huggingface_hub import hf_hub_download; hf_hub_download(repo_id='albertvillanova/medmnist-v2', repo_type='dataset', filename='data/octmnist.npz')\"",
+      "split": "official MedMNIST v2 train/val/test split; selected run used test rows reported in results CSV"
+    },
+    {
+      "name": "MedMNIST v2 OrganAMNIST",
+      "identifier": "albertvillanova/medmnist-v2 data/organamnist.npz",
+      "canonical_reference": "Yang et al., Scientific Data 2023, doi:10.1038/s41597-022-01721-8",
+      "download_command": "python -c \"from huggingface_hub import hf_hub_download; hf_hub_download(repo_id='albertvillanova/medmnist-v2', repo_type='dataset', filename='data/organamnist.npz')\"",
+      "split": "official MedMNIST v2 train/val/test split; selected run used test rows reported in results CSV"
+    }
+  ],
+  "included_files": [
+    "data/results_external_validation_20260715.csv",
+    "data/table_primary_metric_summary.csv",
+    "data/table_dataset_design.csv",
+    "data/seed_delta_external_20260715.csv",
+    "scripts/reproduce_tables_figures.py",
+    "figures/fig1-primary-metric-by-dataset.png",
+    "figures/fig2-calibration-brier-summary.png",
+    "figures/fig3-high-confidence-failure-panels-contact-sheet.png"
+  ],
+  "excluded": [
+    "credentials",
+    "raw MedMNIST NPZ files",
+    "PHI",
+    "private clinical data",
+    "private local paths",
+    "model checkpoints",
+    "oversized scratch artifacts"
+  ]
+}

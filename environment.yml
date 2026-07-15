@@ -1,0 +1,15 @@
+name: seldinger-phase7b-public
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - pillow
+  - pip
+  - pip:
+      - huggingface_hub
+      - medmnist
+      - scikit-learn
+      - scikit-image
